@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-theme';
+  appId = 'theme1';
+
+  switchTheme(appId: string) {
+    this.appId = appId;
+  }
+
 }
+
